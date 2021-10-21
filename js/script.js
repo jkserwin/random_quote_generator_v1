@@ -52,6 +52,7 @@ function getRandomQuote() {
 ***/
 let html = '';
 function printQuote() {
+  let html = "";
   let randomQuote = getRandomQuote(quotes);
   html += `
   <p class="quote">${randomQuote.quote}</p>
